@@ -25,6 +25,7 @@ function App() {
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+          placeholder="Name"
         />
         <input type="submit" value="Search" className="btn btn-primary" />
       </form>
